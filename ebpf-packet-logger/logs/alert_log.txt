@@ -1,0 +1,19 @@
+========== eBPF Packet Logger ==========
+Log Start Time: 2025-07-22 20:21:45
+
+[INFO] [20:21:46] 192.168.1.10:54213 → 142.250.183.206:80 (PID 1354)
+Reason: HTTP traffic (normal)
+
+[INFO] [20:21:48] 192.168.1.10:54214 → 34.117.59.81:443 (PID 1354)
+Reason: HTTPS request (normal)
+
+[ALERT] [20:21:50] 192.168.1.10:54220 → 10.0.0.5:4444 (PID 2349)
+Reason: Suspicious port access (4444) — commonly used by reverse shells
+
+[INFO] [20:21:53] 192.168.1.10:54225 → 104.244.42.1:22 (PID 1357)
+Reason: SSH traffic (normal)
+
+[ALERT] [20:21:57] 192.168.1.10:54230 → 192.168.1.20:31337 (PID 2361)
+Reason: Suspicious port access (31337) — potential backdoor
+
+========== End of Log ==========
