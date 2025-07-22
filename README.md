@@ -2,6 +2,7 @@
 
 A lightweight Linux kernel-level packet logging and threat detection tool using eBPF and Python. Developed as part of a small self-made project to demonstrate low-level observability and anomaly detection via suspicious port activity.
 
+NOTE: Since WSL2  does not support eBPF, all screenshots and reults are emulated from actual results obtained from actual Linux VM's
 ---
 
 ##  Features
