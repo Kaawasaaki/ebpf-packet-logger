@@ -1,6 +1,6 @@
  ## eBPF-Based Kernel Packet Logger
 
-A lightweight Linux kernel-level packet logging and threat detection tool using eBPF and Python. Developed as part of a college cybersecurity project to demonstrate low-level observability and anomaly detection via suspicious port activity.
+A lightweight Linux kernel-level packet logging and threat detection tool using eBPF and Python. Developed as part of a small self-made project to demonstrate low-level observability and anomaly detection via suspicious port activity.
 
 ---
 
