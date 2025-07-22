@@ -27,9 +27,17 @@ A lightweight Linux kernel-level packet logging and threat detection tool using 
 
 ---
 
+## Results
+
+- Results are in the log folder, which shows the tcp requests and the corresponding ports
+
+  
 ## Setup
 
 ```bash
 # Dependencies (for Debian/Kali)
 sudo apt install bpfcc-tools cmake libclang-dev llvm-dev libelf-dev zlib1g-dev libfl-dev python3-pip
 pip3 install bcc
+'''
+
+
